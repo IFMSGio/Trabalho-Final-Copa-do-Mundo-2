@@ -1,0 +1,109 @@
+.fundo{
+	background-color: #FFECEC;
+	shape-margin: 0px;
+}
+.container{
+	display: flex;
+}
+.logo{
+	height: 2vh;
+	width: 20%;
+	background-color: black;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: #FF6363;
+}
+.quadrado1{
+	height: 4vh;
+	width: 2%;
+	background-color: black;
+	margin-left: 1240px;
+	margin-top: 10px;
+	background-color: #FF6363;
+}
+.quadrado2{
+	height: 4vh;
+	width: 2%;
+	background-color: black;
+	margin-left: 50px;
+	margin-top: 10px;
+	background-color: #FF6363;
+}
+.quadrado3{
+	height: 4vh;
+	width: 2%;
+	background-color: black;
+	margin-left: 50px;
+	margin-top: 10px;
+	background-color: #FF6363;
+}
+.banner{
+	height: 30vh;
+	width: 97%;
+	background-color: black;
+	margin-left: 30px;
+	margin-top: 20px;
+	background-color: #A90000;
+	display: flex;
+}
+.paises{
+	display: flex;
+}
+.pais1{
+	height: 15vh;
+	width: 15%;
+	background-color: grey;
+	margin-top: 40px;
+	margin-left: 77px;
+	background-color: #FF7777;
+}
+.pais2{
+	height: 15vh;
+	width: 15%;
+	background-color: grey;
+	margin-top: 40px;
+	margin-left: 200px;
+	background-color: #FF7777;
+}
+.pais3{
+	height: 15vh;
+	width: 15%;
+	background-color: grey;
+	margin-top: 40px;
+	margin-left: 200px;
+	background-color: #FF7777;
+}
+.pais4{
+	height: 15vh;
+	width: 15%;
+	background-color: grey;
+	margin-top: 40px;
+	margin-left: 200px;
+	background-color: #FF7777;
+}
+.meio{
+	display: flex;
+}
+.q1{
+	height: 60vh;
+	width: 20%;
+	background-color: black;
+	margin-top: 150px;
+	margin-left: 30px; 
+	background-color: #A90000;
+}
+.q2{
+	height: 60vh;
+	width: 20%;
+	background-color: black;
+	margin-top: 150px;
+	margin-left: 1075px; 
+	margin-bottom: 50px;
+	background-color: #A90000;
+}
+@media (max-width: 760px){
+	.logo, .q, .quadrado1, .banner, .paises, .pais1, .pais2, .pais3, .pais4, .meio, .q1, .q2{
+		width: 100%; 
+	}
+
+}
